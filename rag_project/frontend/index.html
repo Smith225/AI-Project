@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RAG Document QA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="heading">Document QA using RAG</h1>
+
+    <div class="parent">
+
+        <div class="uploadBlock container">
+
+            <h1>Upload PDF</h1>
+
+            <form id="uploadForm" class="formFill">
+
+                <div>
+                    <input type="file" id="fileInput" class="input-field" accept=".pdf" required>
+                </div>
+                <button type="submit" id="uploadBtn" class="btn">Upload PDF</button>
+
+                <p id="uploadStatus"></p>
+
+            </form>
+        </div>
+
+
+        <div class="askBlock container">
+            <h1>Ask a Question related to PDF : </h1>
+            <div>
+                <textarea class="question" id="questionInput" placeholder="Ask your question..."
+                    maxlength="400"></textarea>
+            </div>
+            <button type="button" id="askButton" class="btn">Ask</button>
+        </div>
+
+
+        <div class="genAnswer">
+            <p id="answer">If your request is successful, your answer will appear here.</p>
+            <p id="sources" class="references"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

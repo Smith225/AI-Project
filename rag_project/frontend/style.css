@@ -1,0 +1,78 @@
+body {
+    background-color: burlywood;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: blanchedalmond;
+    border: 3px solid brown;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+.uploadBlock {
+    margin-right: 3em;
+}
+
+.formFill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    width: 300px;
+    height: 40px;
+    padding-left: 6em;
+    font-size: 16px;
+    margin: 40px;
+}
+
+.btn {
+    width: 10em;
+    height: 3em;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.askBlock {
+    margin-left: 3.9em;
+}
+
+.question {
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+    margin: 40px;
+}
+
+.genAnswer {
+    flex-basis: 100%;
+    padding: 20px;
+    background-color: palegreen;
+    border: 3px solid green;
+    border-radius: 20px;
+}
+
+/*
+.references {
+    border: 2px solid black;
+} */
